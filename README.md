@@ -15,3 +15,8 @@ This project uses **Nx** to manage multiple applications.
 ### ✅ Start Admin-API App
 - To serve:  nx s admin-api
 - To build:  nx build admin-api
+
+
+### ✅ Migrate Schemas
+- To serve:  nx run db:migrate
+
