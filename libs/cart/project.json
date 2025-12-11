@@ -1,0 +1,9 @@
+{
+  "name": "@ecommerce-expressjs-mongodb/cart",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/cart/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project @ecommerce-expressjs-mongodb/cart --web",
+  "targets": {}
+}

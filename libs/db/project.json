@@ -1,0 +1,16 @@
+{
+  "name": "@ecommerce-expressjs-mongodb/db",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/db/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project @ecommerce-expressjs-mongodb/db --web",
+  "targets": {
+    "migrate": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx tsx ./libs/db/src/lib/runMigrations.ts"
+      }
+    },
+  }
+}

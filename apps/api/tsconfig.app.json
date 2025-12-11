@@ -17,5 +17,22 @@
     "eslint.config.js",
     "eslint.config.cjs",
     "eslint.config.mjs"
+  ],
+  "references": [
+    {
+      "path": "../../libs/auth/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/products/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/orders/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/cart/tsconfig.lib.json"
+    },
+    {
+      "path": "../../libs/db/tsconfig.lib.json"
+    }
   ]
 }

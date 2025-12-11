@@ -16,6 +16,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@ecommerce-expressjs-mongodb/source"]
+    "customConditions": ["@ecommerce-expressjs-mongodb/source"],
+
   }
 }

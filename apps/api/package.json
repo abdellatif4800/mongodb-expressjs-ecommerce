@@ -2,8 +2,21 @@
   "name": "@ecommerce-expressjs-mongodb/api",
   "version": "0.0.1",
   "private": true,
+  "root": "apps/api",
+  "sourceRoot": "apps/api/src",
+
   "nx": {
     "targets": {
+      "dev": {
+        "executor": "nx:run-commands",
+        "parallel": true,
+        "options":{
+          "commands": [
+              "nx run-many -t build --projects=auth,cart,orders,products,middlewares   --watch --tui=false",
+              "nx run-many -t serve --projects=api,admin-api"
+          ]
+        }
+      },
       "build": {
         "executor": "@nx/esbuild:esbuild",
         "outputs": [
@@ -41,6 +54,8 @@
             }
           }
         }
+
+
       },
       "prune-lockfile": {
         "dependsOn": [

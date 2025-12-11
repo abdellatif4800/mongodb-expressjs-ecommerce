@@ -4,10 +4,28 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/api-e2e"
+      "path": "./apps/api"
     },
     {
-      "path": "./apps/api"
+      "path": "./libs/db"
+    },
+    {
+      "path": "./libs/auth"
+    },
+    {
+      "path": "./libs/products"
+    },
+    {
+      "path": "./apps/admin-api"
+    },
+    {
+      "path": "./libs/cart"
+    },
+    {
+      "path": "./libs/orders"
+    },
+    {
+      "path": "./libs/middlewares"
     }
   ]
 }

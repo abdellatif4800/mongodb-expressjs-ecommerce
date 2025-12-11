@@ -1,0 +1,10 @@
+{
+  "name": "@ecommerce-expressjs-mongodb/auth",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/auth/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project @ecommerce-expressjs-mongodb/auth --web",
+  "targets": {
+  }
+}
