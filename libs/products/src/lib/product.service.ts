@@ -142,7 +142,7 @@ export class ProductService {
             creatdAt: 1,
             updatedAt: 1,
             subCategoryID: 1,
-            subCategoryName: "$subCategory.subCategotzy"
+            subCategoryName: "$subCategory.subCategory"
           }
         }
       ]).toArray();

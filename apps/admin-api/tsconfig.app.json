@@ -26,6 +26,9 @@
       "path": "../../libs/auth/tsconfig.lib.json"
     },
     {
+      "path": "../../libs/testimonials/tsconfig.lib.json"
+    },
+    {
       "path": "../../libs/middlewares/tsconfig.lib.json"
     },
     {

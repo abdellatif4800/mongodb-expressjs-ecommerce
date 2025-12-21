@@ -26,6 +26,9 @@
     },
     {
       "path": "./libs/middlewares"
+    },
+    {
+      "path": "./libs/testimonials"
     }
   ]
 }
